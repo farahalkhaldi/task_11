@@ -28,7 +28,7 @@ urlpatterns = [
     path('restaurants/create/',views.restaurant_create ,name='restaurant-create'),
     path('restaurants/<int:restaurant_id>/update/',views.restaurant_update ,name='restaurant-update'),
     path('restaurants/<int:restaurant_id>/delete/',views.restaurant_delete ,name='restaurant-delete'),
-
+    path('restaurants/denied',views.denied ,name='denied'),
     path('restaurants/<int:restaurant_id>/item/add/',views.item_create ,name='item-create'),
 
     path('signup/',views.signup ,name='signup'),
