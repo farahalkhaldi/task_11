@@ -124,7 +124,7 @@ def restaurant_delete(request, restaurant_id):
 def denied(request):
     context = { 
 
-    "msg": 'You Have No Access to delete a restaurant!'
+    "msg": 'You have NO access to delete a restaurant!'
 
     }
     return render(request, 'denied.html', context)
